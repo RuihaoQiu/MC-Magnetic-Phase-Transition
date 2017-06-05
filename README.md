@@ -18,11 +18,15 @@ This project is to use Monte Carlo method to simulate the behaviour of spins in 
 
 - [**Ising Model**]()
 
-  [Theory]()
+  [Theory](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/Ising-model-theory.ipynb)
 
-  [2D Ising model]()
+  [2D Ising model](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/2D-Ising-model.ipynb)
 
-  [3D Ising model]()
+  [3D Ising model](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Ising-model.ipynb)
 
 - [**Heisenberg Model**]()
+
+  [Theory](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/Heisenberg-model.ipynb)
+
+  [3D Heisenberg model](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/MC-3D-Heisenberg-model.ipynb)
 
