@@ -1,6 +1,6 @@
 # Monte Carlo Simulations on Magnetic Phase Transition.
 
-This project is to use Monte Carlo method to simulate the behaviour of spins in magnetic materials.
+This project is to use Markov Chain Monte Carlo method to simulate the behavior of spin orders in magnetic materials.
 
 ### Methods
 
@@ -8,27 +8,33 @@ This project is to use Monte Carlo method to simulate the behaviour of spins in 
 
 - [Markov Chain Monte Carlo]() (MCMC) 
 
-  Construct a Markov chain to do Monte Carlo approximation.
+  Markov Chain is a dependent system, the next state of the system depends only on the present state:
+  $$
+  P(x) = P(x_k|x_{k-1})P(x_{k-1}|x_{k-2})...P(x_2|x_1).
+  $$
+  All the probabilities are forming a transition matrix, which can be shown as a transition diagram.
+
+  MCMC is simply to construct a Markov chain to do Monte Carlo approximation.
 
 - [Metropolis–Hastings Algorithm]()
 
   The Algorithm is illustrated as the pseudocode:
 
-  1. Initialize x(0)
+  1. Initialize $x_0$
 
-  2. For i = 0 to N
+  2. For  $i$ = 0  to $N$
 
-     - Sample u ~ U(0, 1)
+     - Sample $u$ ~ $U(0, 1)$
 
-     - Sample x* ~ q(x*|x(i))
+     - Sample $x^*$ ~ $q(x^*|x_i)$
 
-     - If u < A(x(i), x\*) = min{1, p(x\*)q(x(i)|x\*) / p(x(i))q(x\*|x(i))}
+     - If $u < A(x_i, x^*) = min\{1, p(x^*)q(x_i|x^*) / p(x_i)q(x^*|x_i)\}$
 
-       ​	x(i+1) = x*
+       ​	$x_{i+1} = x^*$
 
        else
 
-       ​	x(i+1) = x(i)
+       ​	$x_{i+1} = x^*$
 
 ### Models
 
@@ -37,6 +43,8 @@ This project is to use Monte Carlo method to simulate the behaviour of spins in 
   For an individual particle in a many-body system, the effect from all the other particles is approximated by a single averaged effect, which reducing a many-body problem to a one-body problem.
 
   [Estimate Neél temperature by mean-field theory]()
+
+  ​
 
 
 - **Ising Model**
