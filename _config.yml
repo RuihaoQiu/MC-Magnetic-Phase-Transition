@@ -1,1 +1,5 @@
 theme: jekyll-theme-slate
+
+webrick:
+  headers:
+    My-Header: Just for testing
