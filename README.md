@@ -73,13 +73,19 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
   - 3D Ising model
 
+    In 3D Ising model, the spins are oriented to two directions, represent by red and blue dots in the following figure.
+
     <img src="data-and-images/3d_points.gif" style= "width:50%; height:50%; float:left" />
+
+  The codes and all the details are in file:
+
+  [**3D-Ising-model.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Ising-model.ipynb)
 
   ​
 
-  [3D Ising Model](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Ising-model.ipynb)
+- **3D Heisenberg Model**
 
-- **Heisenberg Model**
+  This model allow the spin change both direction and magnitude. The code is in the following file:
 
-  [3D Heisenberg Model](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/MC-3D-Heisenberg-model.ipynb)
+  [**3D-Heisenberg Model.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Heisenberg-model.ipynb)
 
