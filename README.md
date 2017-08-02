@@ -8,15 +8,9 @@ This project is to use Markov Chain Monte Carlo method to simulate the behavior 
 
 - Markov Chain Monte Carlo (MCMC) 
 
-  Markov Chain is a dependent system, the next state of the system depends only on the present state:
-  $$
-  P(x) = P(x_k|x_{k-1})P(x_{k-1}|x_{k-2})...P(x_2|x_1).
-  $$
-  All the probabilities are forming a transition matrix, which can be shown as a transition diagram, e.g. a 3-states transition matrix:
-  $$
-  P =  \left[ {\begin{array}{ccc}   P_{11} & P_{12} & P_{13} \\   P_{21} & P_{22} & P_{23} \\ P_{31} & P_{32} & P_{33} \end{array} } \right].
-  $$
-  each element in the matrix represents the possibility from one state to the other one.
+  Markov Chain is a dependent system, the next state of the system depends only on the present state.
+
+  All the probabilities are forming a transition matrix, each element in the matrix represents the possibility from one state to the other one. The Makov process will asymptotically reach a unique stationary distribution.
 
   MCMC is simply to construct a Markov chain to do Monte Carlo approximation, the most used algorithm is Metropolis–Hastings Algorithm.
 
@@ -24,21 +18,15 @@ This project is to use Markov Chain Monte Carlo method to simulate the behavior 
 
   The Algorithm is illustrated as the pseudocode:
 
-  1. Initialize $x_0$
+  1. Initialize a random state;
 
-  2. For  $i$ = 0  to $N$
+  2. Pick up a random state according to the proposal distribution,
 
-     - Sample $u$ ~ $U(0, 1)$
+  3. If satisfy the [Metropolis condition](https://en.wikipedia.org/wiki/Metropolis–Hastings_algorithm), the system transits to the new state; else, transition doesn't take place. 
 
-     - Sample $x^*$ ~ $q(x^*|x_i)$
+  4. save the state, go to step 2.
 
-     - If $u < A(x_i, x^*) = min\{1, p(x^*)q(x_i|x^*) / p(x_i)q(x^*|x_i)\}$
-
-       ​	$x_{i+1} = x^*$
-
-       else
-
-       ​	$x_{i+1} = x^*$
+     ​
 
 The implemental details of MCMC in a magnetic lattice can be referred to
 
@@ -63,7 +51,7 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
     In 2D Ising model, the spins are lying in $xy$-plane and oriented only along either +$y$ or -$y$ directions. The following figure shows the Monte Carlo process.
 
-    <img src="data-and-images/2d_vector.gif" style="width: 80%; height: 50%; float: left">
+    <img src="data-and-images/2d_vector.gif" style="width: 60%; height: 50%; float: left">
 
     The codes and other details are in the following page:
 
@@ -75,7 +63,7 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
     In 3D Ising model, the spins are oriented to two directions, represent by red and blue dots in the following figure.
 
-    <img src="data-and-images/3d_points.gif" style= "width:50%; height:50%; float:left" />
+    <img src="data-and-images/3d_points.gif" style="width:80%; height:30%; float:left" />
 
   The codes and all the details are in file:
 
