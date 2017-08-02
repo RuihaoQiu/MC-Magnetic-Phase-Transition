@@ -52,14 +52,30 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
   We call it Mean-field Theory.
 
-  First, we use Mean-field Theory to estimjate the Neél temperature of the magnetic system, please refer to 
+  First, we use Mean-field Theory to estimate the Néel temperature of the magnetic system, please refer to (Attention, lots of formulas!!!)
 
   [**Mean-field Theory.ipynb**]()
 
 
 - **Ising Model**
 
-  [2D Ising Model](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/2D-Ising-model.ipynb)
+  - 2D Ising Model
+
+    In 2D Ising model, the spins are lying in $xy$-plane and oriented only along either +$y$ or -$y$ directions. The following figure shows the Monte Carlo process.
+
+    <img src="data-and-images/2d_vector.gif" style="width: 80%; height: 50%; float: left">
+
+    The codes and other details are in the following page:
+
+    [**2D-Ising-model.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/2D-Ising-model.ipynb)
+
+    ​
+
+  - 3D Ising model
+
+    <img src="data-and-images/3d_points.gif" style= "width:50%; height:50%; float:left" />
+
+  ​
 
   [3D Ising Model](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Ising-model.ipynb)
 
