@@ -42,7 +42,7 @@ This project is to use Markov Chain Monte Carlo method to simulate the behavior 
 
 The implemental details of MCMC in a magnetic lattice can be referred to
 
-[**MCMC implementation.ipynb**]()
+[**MCMC implementation.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/MCMC%20implementation.ipynb)
 
 ### Models
 
@@ -52,23 +52,18 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
   We call it Mean-field Theory.
 
-  First, we use Mean-field Theory to estimate the Neél temperature of the magnetic system.
+  First, we use Mean-field Theory to estimjate the Neél temperature of the magnetic system, please refer to 
 
-  [Estimate Neél temperature by mean-field theory]()
-
+  [**Mean-field Theory.ipynb**]()
 
 
 - **Ising Model**
-
-  [Theory](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/Ising-model-theory.ipynb)
 
   [2D Ising Model](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/2D-Ising-model.ipynb)
 
   [3D Ising Model](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Ising-model.ipynb)
 
 - **Heisenberg Model**
-
-  [Theory](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/Heisenberg-model.ipynb)
 
   [3D Heisenberg Model](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/MC-3D-Heisenberg-model.ipynb)
 
