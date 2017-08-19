@@ -51,7 +51,7 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
     In 2D Ising model, the spins are lying in xy​-plane and oriented only along either +y​ or -y directions. The following figure shows the Monte Carlo process.
 
-    <img src="data-and-images/2d_vector.gif" style="width: 60%; height: 50%; float: left">
+    <p align="center"><img src="data-and-images/2d_vector.gif" style="width: 60%; height: 50%"></p>
 
     The codes and other details are in the following page:
 
@@ -63,7 +63,7 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
     In 3D Ising model, the spins are oriented to two directions, represent by red and blue dots in the following figure.
 
-    <img src="data-and-images/3d_points.gif" style="width:80%; height:30%; float:left" />
+    <p align="center"><img src="data-and-images/3d_points.gif" style="width:80%; height:30%></p>
 
   The codes and all the details are in file:
 
