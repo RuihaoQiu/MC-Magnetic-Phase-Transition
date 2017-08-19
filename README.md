@@ -12,14 +12,13 @@ This project is to use Markov Chain Monte Carlo method to simulate the behavior 
 
 - Metropolis–Hastings Algorithm
 
-  The Algorithm is illustrated as the pseudocode:
+  The Algorithm is illustrated as the pseudocode:<bt>
   1. Initialize a random state;<br>
   2. Pick up a random state according to the proposal distribution;<br>
   3. If satisfy the [Metropolis condition](https://en.wikipedia.org/wiki/Metropolis–Hastings_algorithm), the system transits to the new state; else, transition doesn't take place;<br>
   4. save the state, go to step 2.
 
-The implemental details of MCMC in a magnetic lattice can be referred to
-
+The implemental details of MCMC in a magnetic lattice can be referred to<br>
 [**MCMC implementation.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQiu/MC-Magnetic-Phase-Transition/blob/master/MCMC-implementation.ipynb)
 
 ### Models
@@ -40,8 +39,7 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
     <p align="center"><img src="data-and-images/2d_vector.gif" style="width: 60%; height: 50%"></p>
 
-    The codes and other details are in the following page:
-
+    The codes and other details are in the following page:<br>
     [**2D-Ising-model.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/2D-Ising-model.ipynb)
 
   - 3D Ising model
@@ -50,13 +48,11 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
     <p align="center"><img src="data-and-images/3d_points.gif" style="width:80%; height:30%"></p>
     
-    The codes and all the details are in file:
-    
+    The codes and all the details are in file:<br>   
     [**3D-Ising-model.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Ising-model.ipynb)
 
 - **3D Heisenberg Model**
 
-  This model allow the spin change both direction and magnitude. The code is in the following file:
-
+  This model allow the spin change both direction and magnitude. The code is in the following file:<br>
   [**3D-Heisenberg Model.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Heisenberg-model.ipynb)
 
