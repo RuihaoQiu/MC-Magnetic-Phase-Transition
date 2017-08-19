@@ -27,8 +27,7 @@ The implemental details of MCMC in a magnetic lattice can be referred to<br>
 
   For an individual particle in a many-body system, the effect from all the other particles is approximated by a single averaged effect, which reducing a many-body problem to a one-body problem.<br>
   We call it Mean-field Theory.<br>
-  First, we use Mean-field Theory to estimate the Néel temperature of the magnetic system, please refer to (Attention, lots of formulas!!!)
-
+  First, we use Mean-field Theory to estimate the Néel temperature of the magnetic system, please refer to (Attention, lots of formulas!!!)<br>
   [**Mean-field Theory.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQiu/MC-Magnetic-Phase-Transition/blob/master/Mean-field-theory.ipynb)
 
 - **Ising Model**
