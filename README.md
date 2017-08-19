@@ -1,5 +1,3 @@
-# Monte Carlo Simulations on Magnetic Phase Transition.
-
 This project is to use Markov Chain Monte Carlo method to simulate the behavior of spin orders in magnetic materials.
 
 ### Methods
@@ -25,8 +23,6 @@ This project is to use Markov Chain Monte Carlo method to simulate the behavior 
   3. If satisfy the [Metropolis condition](https://en.wikipedia.org/wiki/Metropolis–Hastings_algorithm), the system transits to the new state; else, transition doesn't take place. 
 
   4. save the state, go to step 2.
-
-     ​
 
 The implemental details of MCMC in a magnetic lattice can be referred to
 
@@ -57,8 +53,6 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
     [**2D-Ising-model.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/2D-Ising-model.ipynb)
 
-    ​
-
   - 3D Ising model
 
     In 3D Ising model, the spins are oriented to two directions, represent by red and blue dots in the following figure.
@@ -66,9 +60,8 @@ The implemental details of MCMC in a magnetic lattice can be referred to
     <p align="center"><img src="data-and-images/3d_points.gif" style="width:80%; height:30%"></p>
     
     The codes and all the details are in file:
+    
     [**3D-Ising-model.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Ising-model.ipynb)
-
-  ​
 
 - **3D Heisenberg Model**
 
