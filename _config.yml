@@ -1,5 +1,4 @@
+---
+title: Monte Carlo simulation on magnetic phase transition
 theme: jekyll-theme-cayman
-
-webrick:
-  headers:
-    My-Header: Just for testing
+---
