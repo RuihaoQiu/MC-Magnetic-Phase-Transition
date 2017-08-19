@@ -63,11 +63,10 @@ The implemental details of MCMC in a magnetic lattice can be referred to
 
     In 3D Ising model, the spins are oriented to two directions, represent by red and blue dots in the following figure.
 
-    <p align="center"><img src="data-and-images/3d_points.gif" style="width:80%; height:30%></p>
-
-  The codes and all the details are in file:
-
-  [**3D-Ising-model.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Ising-model.ipynb)
+    <p align="center"><img src="data-and-images/3d_points.gif" style="width:80%; height:30%"></p>
+    
+    The codes and all the details are in file:
+    [**3D-Ising-model.ipynb**](https://nbviewer.jupyter.org/github/RuihaoQIU/MC-Magnetic-Phase-Transition/blob/master/3D-Ising-model.ipynb)
 
   ​
 
